@@ -1,15 +1,15 @@
 [versions]
 agp = "8.13.2"
 kotlin = "2.0.21"
-coreKtx = "1.17.0"
+coreKtx = "1.13.1"          # outdated: 1.17.0 available
 junit = "4.13.2"
-junitVersion = "1.3.0"
-espressoCore = "3.7.0"
-lifecycleRuntimeKtx = "2.10.0"
-activityCompose = "1.12.4"
-composeBom = "2024.09.00"
-sonar = "4.4.1.3373"
-dokka = "1.9.20"
+junitVersion = "1.2.1"       # outdated: 1.3.0 available
+espressoCore = "3.5.1"       # outdated: 3.7.0 available
+lifecycleRuntimeKtx = "2.7.0" # outdated: 2.10.0 available
+activityCompose = "1.8.2"    # outdated: 1.12.4 available
+composeBom = "2023.10.00"    # outdated: 2024.09.00 available
+sonar = "4.3.1.3277"         # outdated: 4.4.1.3373 available
+dokka = "1.9.10"             # outdated: 1.9.20 available
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
