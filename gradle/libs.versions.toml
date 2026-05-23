@@ -9,7 +9,7 @@ lifecycleRuntimeKtx = "2.7.0" # outdated: 2.10.0 available
 activityCompose = "1.8.2"    # outdated: 1.12.4 available
 composeBom = "2023.10.00"    # outdated: 2024.09.00 available
 sonar = "4.3.1.3277"         # outdated: 4.4.1.3373 available
-dokka = "1.9.10"             # outdated: 1.9.20 available
+dokka = "2.2.0"             # outdated: 1.9.20 available
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
