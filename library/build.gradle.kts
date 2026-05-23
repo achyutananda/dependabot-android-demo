@@ -1,9 +1,9 @@
 plugins {
-    alias(libs.plugins.mdk.android.library)
-    alias(libs.plugins.mdk.lint)
-    alias(libs.plugins.mdk.dokka)
-    alias(libs.plugins.mdk.jacoco)
-    alias(libs.plugins.mdk.sonar)
+    alias(libs.plugins.slab.android.library)
+    alias(libs.plugins.slab.lint)
+    alias(libs.plugins.slab.dokka)
+    alias(libs.plugins.slab.jacoco)
+    alias(libs.plugins.slab.sonar)
 }
 
 android {

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/achyutanandasahu/Documents/Development/Android/build-conventions/convention/src/main/kotlin/com/slab/convention)",
+      "Bash(mv '/Users/achyutanandasahu/Documents/Development/Android/build-conventions/convention/src/main/kotlin/custom-lib-plugin/*.kt' /Users/achyutanandasahu/Documents/Development/Android/build-conventions/convention/src/main/kotlin/com/slab/convention/)",
+      "Bash(rm -rf /Users/achyutanandasahu/Documents/Development/Android/build-conventions/convention/src/main/kotlin/custom-lib-plugin)",
+      "Bash(xargs -0 sed -i '' 's/^package `custom-lib-plugin`$/package com.slab.convention/')"
+    ]
+  }
+}

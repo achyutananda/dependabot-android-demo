@@ -41,10 +41,11 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 sonarqube = { id = "org.sonarqube", version.ref = "sonar" }
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
 
-# Convention plugins — version-less, resolved via composite build
-mdk-android-application = { id = "mdk.android.application" }
-mdk-android-library = { id = "mdk.android.library" }
-mdk-sonar = { id = "mdk.sonar" }
-mdk-lint = { id = "mdk.lint" }
-mdk-dokka = { id = "mdk.dokka" }
-mdk-jacoco = { id = "mdk.jacoco" }
+# Convention plugins — resolved from build-conventions via composite build.
+# Switch to version = "x.y.z" once published to a Maven registry.
+slab-android-application = { id = "slab.android.application" }
+slab-android-library = { id = "slab.android.library" }
+slab-sonar = { id = "slab.sonar" }
+slab-lint = { id = "slab.lint" }
+slab-dokka = { id = "slab.dokka" }
+slab-jacoco = { id = "slab.jacoco" }
